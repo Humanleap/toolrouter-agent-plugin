@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "toolrouter",
+  "version": "0.1.0",
+  "description": "The OpenRouter for tools. One MCP connection gives any AI agent 254 hosted tools, pay per call.",
+  "author": {
+    "name": "OUTSIDE HQ LTD",
+    "url": "https://toolrouter.com"
+  },
+  "homepage": "https://toolrouter.com",
+  "repository": "https://github.com/Humanleap/toolrouter-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "ai-tools",
+    "agents",
+    "tool-router",
+    "openrouter-for-tools",
+    "web-search",
+    "scraping",
+    "image-generation",
+    "video-generation",
+    "seo",
+    "finance"
+  ]
+}
