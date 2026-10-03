@@ -1,0 +1,8 @@
+name: Check skill mirrors
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmp SKILL.md skills/toolrouter/SKILL.md

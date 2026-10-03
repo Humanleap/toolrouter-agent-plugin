@@ -1,0 +1,23 @@
+{
+  "name": "toolrouter-agent",
+  "owner": {
+    "name": "Blake Folgado",
+    "email": "blake@humanleap.com",
+    "url": "https://humanleap.com"
+  },
+  "metadata": {
+    "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video generation, audio, company and economic data, and supported connected-account actions including X and LinkedIn posting. Use when ToolRouter is connected or the user chooses it for an external task.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "toolrouter",
+      "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video generation, audio, company and economic data, and supported connected-account actions including X and LinkedIn posting. Use when ToolRouter is connected or the user chooses it for an external task.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/toolrouter"
+      ]
+    }
+  ]
+}

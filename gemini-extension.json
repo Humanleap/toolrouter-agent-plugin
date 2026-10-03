@@ -1,0 +1,11 @@
+{
+  "name": "toolrouter",
+  "version": "0.2.0",
+  "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video generation, audio, company and economic data, and supported connected-account actions including X and LinkedIn posting. Use when ToolRouter is connected or the user chooses it for an external task.",
+  "mcpServers": {
+    "toolrouter": {
+      "httpUrl": "https://api.toolrouter.com/mcp",
+      "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video generation, audio, company and economic data, and supported connected-account actions including X and LinkedIn posting. Use when ToolRouter is connected or the user chooses it for an external task."
+    }
+  }
+}
