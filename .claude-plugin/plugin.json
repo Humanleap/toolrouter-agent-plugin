@@ -1,6 +1,6 @@
 {
   "name": "toolrouter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video generation, audio, company and economic data, and supported connected-account actions including X and LinkedIn posting. Use when ToolRouter is connected or the user chooses it for an external task.",
   "author": {
     "name": "Blake Folgado",
@@ -17,5 +17,11 @@
   ],
   "skills": [
     "./skills/toolrouter"
-  ]
+  ],
+  "displayName": "ToolRouter",
+  "icon": "./logo.png",
+  "privacyPolicyUrl": "https://toolrouter.com/privacy",
+  "termsOfServiceUrl": "https://toolrouter.com/terms",
+  "documentationUrl": "https://github.com/Humanleap/toolrouter-agent-plugin#readme",
+  "supportUrl": "https://github.com/Humanleap/toolrouter-agent-plugin/issues"
 }
