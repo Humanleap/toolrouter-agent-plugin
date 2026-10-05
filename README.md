@@ -10,6 +10,20 @@ Publisher contact: **blake@humanleap.com**. Public source is maintained in the H
 pnpm dlx skills add Humanleap/agent-skills --skill toolrouter
 ```
 
+### Use-case skills
+
+Install one when the job is already known. Each one uses the same ToolRouter connection.
+
+| Skill | Jobs |
+|---|---|
+| `social-media-scraper` | Profiles, posts, videos, comments, search and trends from TikTok, Instagram, YouTube, X, Facebook, LinkedIn, Reddit, Threads, Bluesky and Pinterest. |
+| `ad-library-scraper` | Competitor ads from the Meta Ad Library, Google Ads Transparency Center, LinkedIn, TikTok and Reddit. |
+| `ecommerce-scraper` | Product pages from any store plus listings from eBay, Vinted, Facebook Marketplace, Gumtree and other marketplaces. |
+
+```bash
+pnpm dlx skills add Humanleap/agent-skills --skill social-media-scraper
+```
+
 ## Claude Code
 
 ```text

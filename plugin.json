@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "toolrouter",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video generation, audio, company and economic data, and supported connected-account actions including X and LinkedIn posting. Use when ToolRouter is connected or the user chooses it for an external task.",
   "author": {
     "name": "Blake Folgado",
@@ -14,6 +14,11 @@
   "keywords": [
     "toolrouter",
     "toolrouter MCP",
-    "toolrouter skills"
+    "toolrouter skills",
+    "social media scraper",
+    "ad library scraper",
+    "ecommerce scraper",
+    "tiktok scraper",
+    "instagram scraper"
   ]
 }
